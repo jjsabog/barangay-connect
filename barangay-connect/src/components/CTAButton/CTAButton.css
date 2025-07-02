@@ -1,0 +1,14 @@
+.cta-button {
+    color: white;
+    border:none;
+    border-radius: 32px;
+    padding: 12px 28px;
+    background-color: var(--color-primary);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-green-light);
+        transition: all 0.3s ease-in-out;
+        transform: all 0.3s ease-in-out;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    /* COLORS */
+    --color-bg-default: #f2f3f8;
+
+    --color-primary: #508D4E;
+    --color-green-light: #9DC08B;
+    --color-green-subtle: #EDF1D6;
+    --color-green-dark: #40513B;
+
+    --color-success: #6CAF58;
+    --color-danger: #C84843;
+
+    --neutral-700: #1E1E1E;
+    --neutral-600: #424242;
+    --neutral-400: #61646B;
+    --neutral-300: #CDCDCD;
+    --neutral-100: #F3F3F3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-bg-default);
+    font-family: 'Inter', sans-serif;
+    color: var(--neutral-700);
+    overflow-x: hidden;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+}
