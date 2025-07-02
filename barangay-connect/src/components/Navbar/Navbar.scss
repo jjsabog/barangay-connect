@@ -1,4 +1,9 @@
 .navbar {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -57,18 +62,17 @@
 
 @media screen and (min-width: 360px) {
   .navbar {
-    padding: var(--padding-360px);
+    padding: var(--padding-360px-navbar);
 
     // Links
     &__links {
-      position: absolute;
-      background-color: rgb(58, 192, 91);
-      width: calc(100vw - 2rem);
-      max-width: 350px;
-      // width: 2rem;
+      position: fixed;
       top: 0;
       right: 0;
-      bottom: 0;
+      height: 100vh;
+      width: calc(100vw - 2rem);
+      max-width: 350px;
+      background-color: rgb(58, 192, 91);
       transition: all 0.3s ease-in-out;
       transform: translateX(0);
       ul {
@@ -87,14 +91,15 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .navbar {
-    padding: 2rem 3rem;
+    padding: var(--padding-1024px-navbar);
 
     &__links {
       // display: none;
 
       position: static;
+      height: auto;
       background-color: transparent;
       width: auto;
       max-width: none;

@@ -1,0 +1,26 @@
+.QR {
+    background-color: var(--color-green-light);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    width: 575px;
+}
+
+.QR__image {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.QR__image img {
+    width: 100px;
+    height: auto;
+}
+
+.QR__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+}

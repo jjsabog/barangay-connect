@@ -19,7 +19,13 @@
     --neutral-100: #F3F3F3;
 
     /* PADDING */
-    --padding-360px: 2rem 1rem;
+    --padding-360px-navbar: 2rem 1rem;
+    --padding-1024px-navbar: 2rem 4rem;
+    --padding-360px: 8rem 1rem;
+    --padding-768px: 8rem 3rem;
+    --padding-1024px: 8rem 4rem;
+    --padding-1440px: 8rem 8rem;
+    
 }
 
 * {
@@ -29,8 +35,7 @@
 }
 
 h1 {
-        font-family: 'Nunito Sans', 'Inter';
-
+    font-family: 'Nunito Sans', 'Inter';
 }
 
 body {

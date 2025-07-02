@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="navbar__logo">
           <img src={navLogo} alt="Logo" />
         </div>
-        {/* <div
+        <div
           className={`navbar__links ${
             hamburgerOpen ? "" : "navbar__links--hidden"
           }`}
@@ -36,7 +36,7 @@ const Navbar = () => {
               <a href="#">Benefits</a>
             </li>
           </ul>
-        </div> */}
+        </div>
         <div className="navbar__cta-button">
           <CTAButton label="Get the App" onClick={() => null} />
         </div>
