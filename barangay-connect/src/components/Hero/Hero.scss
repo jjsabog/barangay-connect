@@ -1,0 +1,38 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem; // Temporary
+  // Heading
+  &__heading {
+    h1 {
+    }
+    img {
+      width: 50px;
+    }
+  }
+
+  // Subheading
+  &__subheading {
+    color: var(--neutral-600);
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .hero {
+    padding: var(--padding-360px);
+    text-align: center;
+
+    // Header
+    &__heading {
+      line-height: 100%;
+    }
+
+    // Phone Mockup
+    &__phone-mockup--mobile img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
