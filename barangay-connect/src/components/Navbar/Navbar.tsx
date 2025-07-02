@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CTAButton from "../CTAButton/CTAButton";
 import "./Navbar.css";
 import navLogo from "../../assets/hero-desktop.png";
